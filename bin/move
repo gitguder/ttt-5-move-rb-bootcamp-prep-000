@@ -10,5 +10,5 @@ prints "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input = gets.strip
 
-move(board, input, "X")
+move(board, user_input, "X")
 display_board(board)
